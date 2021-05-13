@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="simonsGame.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Orbitron"
+    />
+  </head>
+  <body>
+    <div class="outerContainer">
+      <div class="container">
+        <div class="roundBlackButton large">
+          <div class="displayContainer">
+            <span class="displayShape" id="bestScore">0</span>
+            <a class="displayShape largeShape" onclick="startGame()">START</a>
+            <span class="displayShape" id="current">0</span>
+            <div id="lightIndicator"></div>
+          </div>
+        </div>
+
+        <div class="roundBlackButton small top left">
+          <div
+            id="0"
+            onclick="scoreCounter(this)"
+            class="roundColourButton green"
+          ></div>
+        </div>
+        <div class="roundBlackButton small top right">
+          <div
+            id="1"
+            onclick="scoreCounter(this)"
+            class="roundColourButton red"
+          ></div>
+        </div>
+        <div class="roundBlackButton small bottom left">
+          <div
+            id="2"
+            onclick="scoreCounter(this)"
+            class="roundColourButton yellow"
+          ></div>
+        </div>
+        <div class="roundBlackButton small bottom right">
+          <div
+            id="3"
+            onclick="scoreCounter(this)"
+            class="roundColourButton blue"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="simonsGame.js"></script>
+  </body>
+</html>

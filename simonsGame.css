@@ -1,0 +1,102 @@
+.outerContainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.container {
+  margin-left: 40%;
+  margin-top: 8%;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+.roundBlackButton {
+  border-radius: 50%;
+  background-color: black;
+}
+
+.small {
+  width: 120px;
+  height: 120px;
+  display: block;
+  float: left;
+}
+.large {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+}
+.roundColourButton {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0px auto;
+  display: flex;
+  margin-top: 8%;
+}
+.red {
+  background-color: crimson;
+}
+
+.yellow {
+  background-color: gold;
+}
+.blue {
+  background-color: dodgerblue;
+}
+.green {
+  background-color: seagreen;
+}
+.avoidLineBreak {
+  display: inline;
+}
+.top {
+  margin-top: 0px;
+  position: absolute;
+}
+.bottom {
+  position: absolute;
+  bottom: 0px;
+}
+.left {
+  position: absolute;
+  margin-left: 0px;
+}
+.right {
+  right: 0px;
+  position: absolute;
+}
+.displayShape {
+  text-align: center;
+  padding: 5px 0 0 0;
+  background-color: lightgray;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.displayShape:hover {
+  background-color: gray;
+}
+.largeShape {
+  width: 100px;
+}
+.displayContainer {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+#lightIndicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 10px auto;
+  display: flex;
+}
+body {
+  font-family: "Orbitron", sans-serif;
+}
